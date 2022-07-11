@@ -1,3 +1,116 @@
 body{
-    background-color: rgb(54, 107, 185);
+    background-image: url("https://wallpapercave.com/wp/wp2705798.png");
+    background-color: rgb(218, 222, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top{
+    font-size: 0.7rem;
+    background-color:honeydew;
+    border: 5px;
+    padding-left: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.page{
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    display: flex;
+}
+.bottom1,
+        .bottom2{
+            padding: 10px;
+            font-size: 0.45rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+        }
+
+.leftPrice{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size:medium;
+    margin-bottom: 5px;
+}
+
+
+.bottom1{
+    padding-left: 30px;
+    align-items: flex-start;
+    min-width: 180px;
+    background-color: rgb(69, 199, 184);
+    color: rgb(252, 252, 252);
+    border-bottom-left-radius: 10px;
+}
+.bottom2{
+    padding-left: 30px;
+    align-items: flex-start;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(29, 232, 208);
+    color: rgb(252, 252, 252);
+
+}
+.priceRight{
+    margin-left: 5px;
+    color: rgb(92, 127, 123);
+}
+.bottom1end{
+    color: rgb(30, 74, 71);
+    margin-bottom: 20px;
+}
+button{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(8, 3, 3);
+    font-weight:530;
+    background-color: rgb(223, 205, 16);
+    align-self:center;
+    width: 180px;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 205, 16) ;
+    padding: 5px;
+    box-shadow: -1px 1px 1px 1px black;
+}
+button:hover{
+    cursor:pointer;
+    
+}
+button:active{
+    background-color: rgb(154, 144, 4);
+    border: 1px solid rgb(154, 144, 4) ;
+    box-shadow: -1px 1px 1px 1px grey;
+    color: honeydew;
+
+}
+h1{
+
+}
+.rightPara, .para1{
+    color: rgb(105, 105, 105);
+}
+.leftHeading{
+    font-family: monospace,sans-serif;
+    color:rgb(255, 255, 255);
+}
+.heading{
+    color: rgb(7, 95, 145);
+}
+
+.subHeading{
+    font-size:0.8rem;
+    color: rgb(215, 197, 3);
 }
